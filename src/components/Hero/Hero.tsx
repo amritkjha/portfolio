@@ -9,6 +9,8 @@ import whatsapp from '../../assets/whatsapp.svg'
 import Hello from '../../assets/Hello.gif'
 import telegram from '../../assets/telegram.svg'
 export function Hero() {
+  const currYear = new Date(Date.now()).getFullYear();
+  const expYear = currYear - 2024;
   return (
     <Container id="home">
       <div className="hero-text">
@@ -22,7 +24,7 @@ export function Hero() {
           <h3>Full Stack Developer</h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p className="small-resume">1 Year of Experience and Expertise in Frontend development.</p>
+          <p className="small-resume">{expYear} Year of Experience and Expertise in Frontend development.</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
           <BrowserRouter>

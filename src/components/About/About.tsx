@@ -26,7 +26,7 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-          💼 Previously, I've contributed my expertise as a software developer at SaiData Soft Services, Vector3 Digital Tech Pvt. Ltd. and Ikokas Digital Technologies, where I led frontend work along with the backend on various projects, resolved intricate issues, and developed pivotal components to enhance functionality and user experiences.</p>
+          💼 I've contributed my expertise as a frontend developer at Saarthi.ai and Vector3 Digital Tech Pvt. Ltd., where I led frontend work along with the backend on various projects, resolved intricate issues, and developed pivotal components to enhance functionality and user experiences.</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
